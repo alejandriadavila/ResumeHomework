@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mainContainer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #121212;
+    justify-content: center;
+}
+
+/* Heading Start */
+#headingSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: 5px solid blue; */
+}
+
+/* Give boxes a border for visibility
+div{
+    border: 2px dashed white;
+} */
+
+img {
+    width: 40%;
+}
+
+h1 {
+    font-size: 28pt;
+}
+
+#box1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* TODO: Format the two lists to go next to each other */
+
+#box3 {
+    /* align-self: flex-end; */
+    width: 1560px;
+    /* font-weight: bold; */
+}
+
+.bold {
+    font-weight: bold;
+}
+/* Heading End */
+
+/* Main Section Start */
+#mainSection {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* border: 5px solid yellow; */
+}
+
+#skillsSection {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* border: 5px solid green; */
+}
+
+.education-skills {
+    /* border: 1px red; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#title {
+    font-weight: bold;
+    font-size: 24px;
+}
