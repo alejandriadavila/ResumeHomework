@@ -16,6 +16,10 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background-color: #9088fd;
+    border-radius: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     /* border: 5px solid blue; */
 }
 
@@ -26,6 +30,7 @@ div{
 
 img {
     width: 40%;
+    border-radius: 50%;
 }
 
 h1 {
@@ -38,23 +43,32 @@ h1 {
     justify-content: space-around;
 }
 
-/* TODO: Format the two lists to go next to each other */
+#box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    /* justify-content: center; */
+}
 
 #box3 {
     /* align-self: flex-end; */
     width: 1560px;
+    padding-top: 20px;
     /* font-weight: bold; */
 }
 
-.bold {
-    font-weight: bold;
-}
 /* Heading End */
 
 /* Main Section Start */
 #mainSection {
     display: flex;
     flex-direction: column;
+    background-color: #2E2D4D;
+    padding: 30px;
+    border-radius:  20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
     /* flex-wrap: wrap; */
     /* border: 5px solid yellow; */
 }
@@ -62,6 +76,11 @@ h1 {
 #skillsSection {
     display: flex;
     flex-direction: column;
+    background-color: #548C6C;
+    padding: 30px;
+    border-radius: 30px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
     /* flex-wrap: wrap; */
     /* border: 5px solid green; */
 }
@@ -70,9 +89,13 @@ h1 {
     /* border: 1px red; */
     display: flex;
     flex-wrap: wrap;
+    text-indent: 1em;
+    padding-top: 15px;
 }
 
-#title {
+.title {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 20px;
+    font-style: italic;
+    text-indent: 0em;
 }
